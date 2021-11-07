@@ -33,7 +33,7 @@
 
 
 
-    <form action="backend/controlador/registro.php" method="POST" class="form-register" onsubmit="return validar();">
+    <form action="backend/controlador/registroController.php" method="POST" class="form-register" onsubmit="return validar();">
     <h3 class="text-center mb-4 billing-heading" id = "titu">Crear cuenta</h3>
     <div class="contenedor-inputs">
         <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" required pattern="[A-Z a-z]+" minlength="3">

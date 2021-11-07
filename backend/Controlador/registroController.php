@@ -1,7 +1,7 @@
 <?php
 
 require_once ('../Modelo/conexion.php');
-require_once ('../Modelo/valregistro.php');
+require_once ('../Modelo/registroModel.php');
 
 if(isset($_POST['boton'])){
 	if($_POST['nombre'] == '' or $_POST['apellidos'] == '' or $_POST['email'] == '' or $_POST['clave'] == '' or $_POST['telefono'] == ''){

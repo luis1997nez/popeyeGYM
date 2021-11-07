@@ -155,7 +155,7 @@
 					</div>
 					<div class="col-md-1"></div>
           <div class="col-md-6 ftco-animate">
-            <form action="backend/Controlador/contacto.php" method = "POST" class="contact-form">
+            <form action="backend/Controlador/contactoController.php" method = "POST" class="contact-form">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -411,7 +411,7 @@
 					</div>
 					<div class="col-md-1"></div>
           <div class="col-md-6 ftco-animate">
-            <form action="backend/Controlador/contacto.php" method = "POST" class="contact-form">
+            <form action="backend/Controlador/contactoController.php" method = "POST" class="contact-form">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">

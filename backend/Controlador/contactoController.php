@@ -1,7 +1,7 @@
 <?php
 
 require_once ('../Modelo/conexion.php');
-require_once ('../Modelo/ingcontacto.php');
+require_once ('../Modelo/contactoModel.php');
 
 $nombreUs = $_POST['nombre'];
 $correoUs = $_POST['email'];
